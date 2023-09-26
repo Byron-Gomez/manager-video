@@ -1,0 +1,47 @@
+# Ignorar la carpeta /assets/
+assets/videos/
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# La carpeta .vscode contiene configuraciones de lanzamiento y tareas que configuras en
+# VS Code, que es posible que desees incluir en el control de versiones. Por lo tanto,
+# esta línea está comentada por defecto.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio colocará aquí los archivos de construcción
+/android/app/debug
+/android/app/profile
+/android/app/release
